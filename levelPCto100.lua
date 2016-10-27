@@ -2,12 +2,10 @@ name = "Level your whole PC to 100"
 author = "PotatoBlood"
 description = [[Levels your whole PC to the maxPokeLevel, Catch uncaught pokemon, shinies and the catchList, farm at different places, randomized with a timer. Uses leftovers, teamsorting, automatic movelearner and pathfinding. Automatically buys TM's and learns HMs and TMs to unusable pokemon]]
 ----------------------------------------------------------------
--- TODO: 
--- auto evolve off before lvl for evo 1 and lvl for evo 2 that ppl choose 66 on, 67 off, 80 on
--- pokeball buyer
--- lvls / hour & pokedollars / hour
--- check the levels , then change the pokes lvl 100 and withdraw until 6pokes and then try the move thing and go farm
+-- U need to start with 6 pokemon, have at least Kanto cleared
+-- and have pokeballs and at least 130.000 pokedollars (for TMs)
 ----------------------------------------------------------------
+-- catchList - add or delete all pokemon that u want to be caught everytime it encounters one
 catchList = {"Electabuzz", "Charmander", "Abra", "Dratini", "Dragonair", "Snorlax", "Natu", "Ralts"}
 -- Max level - set to 90 to change pokes at lvl 90, set to 100 to change pokes at lvl 100, 101 to keep farming at level 100
 maxPokeLevel = 100
