@@ -8,3 +8,6 @@ Levels your whole PC to the maxPokeLevel, Catch uncaught pokemon, shinies and th
 This will grab the first 6 lvl 100s on your pc
 # PotatosDen
 Catch pokemon from a list at Dragons Den, uses leftovers, teamsorting and pathfinding.
+
+All scripts require the Pathfinder and Libs folder
+[[http://puu.sh/rYWhy/5b9c1678a6.png|alt=folderstructure]]
