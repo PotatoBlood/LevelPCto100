@@ -21,12 +21,12 @@ catchTorchic = true --put true to catch torchic
 catchSableye = true --put true to catch sableye
 catchDarumaka = true --put true to catch Darumaka
 resetFarm = true --false will catch 1 each and farm Darumaku infinitly
+buyBallAmount = 200
 --------------------------------------------------------------
 -- Only touch the code below if you know what you are doing --
 --------------------------------------------------------------
-buyBallAmount = 200
-useSync = false
-useFalseSwipe = false
+useSync = false --not implemented yet
+useFalseSwipe = false --not implemented yet
 -- !!!!!!not implemented yet dont set to false!!!!!!
 ignoreWynaut = true --put false to catch Wynaut -- !!!!!!not implemented yet dont set to false!!!!!!
 -- !!!!!!not implemented yet dont set to false!!!!!!
