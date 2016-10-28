@@ -1,3 +1,7 @@
+# PROSummerEvent
+Completes full Magma Quest Line, get clothes and hat reward and will farm rare pokemon. Catch shinies, pokemon not caught yet and from catchList. Does not collect and turn in points (yet).
+# VulcanToVermillion
+This allows you to move from anywhere on Vulcan Island to Vermilion City
 # LevelPCto100
 Levels your whole PC to the maxPokeLevel, Catch uncaught pokemon, shinies and the catchList, farm at different places, randomized with a timer. Uses leftovers, teamsorting, automatic movelearner and pathfinding. Automatically buys TM's and learns HMs and TMs to unusable pokemon
 # take100frompc
