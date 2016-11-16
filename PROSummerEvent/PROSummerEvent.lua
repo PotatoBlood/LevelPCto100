@@ -1075,13 +1075,9 @@ canRun = true
 				return true
 			end
 	elseif isWildBattle() and isPokemonInList() then
-		if getActivePokemonNumber() ~= 2 or not isPokemonUsable(2) then
-           return sendPokemon(2) or sendPokemon(4) or sendUsablePokemon() or sendAnyPokemon()
-        elseif ( getActivePokemonNumber() == 2 ) and ( getOpponentHealth() > 1 ) then
-           return weakAttack() or sendAnyPokemon() or run()
-        elseif getOpponentHealth() == 1 then
-           return useItem("Pokeball") or useItem("Great Ball") or useItem("Ultra Ball") or attack() or run()
-       end
+			if useItem("Ultra Ball") or useItem("Great Ball") or useItem("Pokeball") then
+				return true
+			end
 	end	
 	-- if we do not try to catch it
 	if getTeamSize() == 1 or getUsablePokemonCount() > 1 then
